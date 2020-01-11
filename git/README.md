@@ -5,7 +5,7 @@ My git dotfiles. Global config files live at `$HOME`.
 ## Git aliases
 **Core commands**
 
-| alias | command |
+| **alias** | **command** |
 | ----- | ------- |
 | `br` | `branch` |
 | `cm` | `commit` |
@@ -14,7 +14,7 @@ My git dotfiles. Global config files live at `$HOME`.
 
 **More aliases**
 
-| alias | command | what it does |
+| **alias** | **command** | **what it does** |
 | ---- | ------- | ------ |
 | `cmm` | `commit -m` | Write the commit message in the terminal |
 | `cfix` | `commit --amend --reuse-message=HEAD` | Fix, i.e. replace, the last commit by creating a new commit and reusing the tip's commit message. |
