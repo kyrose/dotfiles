@@ -1,0 +1,34 @@
+[user]
+	name = kyrose
+	email = dev@kyanne.email
+
+[core]
+	excludesfile = ~/.config/git/ignore
+	editor = v -w
+	trustctime = false
+	autocrlf = input
+
+[grep]
+	lineNumber = true
+
+[help]
+	autocorrect = 1
+
+[push]
+	default = simple
+	followTags = true
+
+[fetch]
+	prune = true
+
+[alias]
+	co = checkout
+	br = branch
+	cm = commit
+	st = status
+	unstage = reset HEAD --
+	undo = reset HEAD~1
+	last = log -1 HEAD
+	amend = commit --amend --reuse-message=HEAD
+	log = log --graph --pretty=format:'%Cmagenta%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>%Creset' --abbrev-commit
+
