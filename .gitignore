@@ -1,0 +1,9 @@
+# Ignore backup files
+*.bak
+*.tmp
+*~
+
+# Vim
+[._]*.swp	# swap files
+[._]*.un~  	# persistent undo
+tags		# auto-generated tag files		
