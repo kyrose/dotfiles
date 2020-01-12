@@ -26,9 +26,9 @@
 	br = branch
 	cm = commit
 	st = status
-	unstage = reset HEAD --
-	undo = reset HEAD~1
+	cfix = commit --amend --reuse-message=HEAD
+	cmm = commit -m
 	last = log -1 HEAD
-	amend = commit --amend --reuse-message=HEAD
-	log = log --graph --pretty=format:'%Cmagenta%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>%Creset' --abbrev-commit
-
+	log = log --graph --pretty=medium --date=iso
+	undo = reset --soft HEAD~
+	revert = reset --hard HEAD~
