@@ -1,0 +1,8 @@
+// GitGutter Settings - User
+{
+	"ignore_whitespace": "eol",
+
+	"show_markers_on_untracked_file": false,
+
+	"theme": "Monokai Pro.gitgutter-theme"
+}
