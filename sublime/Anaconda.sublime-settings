@@ -1,0 +1,14 @@
+{
+	"python_interpreter": "python",
+	"auto_python_builder_enabled": false,
+
+	// Disable Anaconda linter globally because it's annoying
+	"anaconda_linting": false,
+	"anacaonda_linting_behavior": "load-save",
+	"anaconda_linter_mark_style": "stippled_underline",
+
+	"anaconda_gutter_theme": "simple",
+	
+	// PEP 8 config
+	"pep8_max_line_length": 120
+}
