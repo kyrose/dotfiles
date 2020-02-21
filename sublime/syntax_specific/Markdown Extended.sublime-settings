@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"extensions":
+	[
+		"md",
+		"markdown",
+		"mdown"
+	],
+	
+	"font_face": "Cousine",
+	"font_size": 11,
+	"line_numbers": false,
+	"line_padding_bottom": 2,
+	"line_padding_top": 3,
+	"spell_check": true,
+	"trim_trailing_white_space_on_save": true
+}
