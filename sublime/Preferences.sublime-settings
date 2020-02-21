@@ -1,0 +1,144 @@
+{
+// ----------------------------------------------------------------------
+// Editor Settings
+// ----------------------------------------------------------------------
+	//"color_scheme": "Packages/User/Dank_Neon (SublimePythonIDE).tmTheme",
+	"color_scheme": "Packages/User/Monokai - Spacegray (SublimePythonIDE).tmTheme",
+
+	"font_face": "Fira Code",
+	"font_size": 10,
+	
+	// Italics + monospace = vomit
+	"font_options": [ "no_italic" ],
+
+	// Minimize space between gutter and text
+	"margin": 1,
+
+	// Only show change indicators for tracked files 
+	"mini_diff": "auto",
+
+	// Down with tabs! Long live spaces!
+	"translate_tabs_to_spaces": false,
+
+	// Auto add white space to first open bracket when indenting, like so:
+			/*
+				key = [1, 2, 3, 4, 5, 6, 7, 8,
+		               9, 10, 11, 12, 13, 14]
+		    */
+    "indent_to_bracket": true,
+
+    // Show indent guides for all indentation
+	"draw_indent_guides": true,
+
+	// Show indent guides for current line in another color
+	"indent_guide_options": [ "draw_normal", "draw_active" ],
+
+	// Highlight current line
+	"highlight_line": true,
+
+	// Cursor settings
+    "caret_extra_top": 1,
+    "caret_extra_bottom": 1,
+    "caret_extra_width": 0,
+
+    // Force shift+tab to always unindent
+   	"shift_tab_unindent": true,
+
+   	// ctrl+c and ctrl+x do nothing when selection is empty
+   	// no longer will I be driven mad by my poor motor skills
+    "copy_with_empty_selection": false,
+
+	// Dictionary
+	"added_words": [
+		"Ubuntu",
+		"nodejs",
+		"sudo",
+		"https",
+		"npm",
+		"npx",
+		"css",
+		"app",
+		"javascripts",
+		"stylesheets",
+		"js",
+		"json",
+		"www",
+		"org"
+	],
+
+
+// ----------------------------------------------------------------------
+// UI Settings
+// ----------------------------------------------------------------------
+
+	"theme": "Spacegray.sublime-theme",
+
+	"highlight_modified_tabs": true,
+
+    // Show folders in the side bar in bold
+    "bold_folder_labels": true,
+
+    // Fix issue weird scrollbar rendering
+    "overlay_scroll_bars": "enabled",
+
+
+// ----------------------------------------------------------------------
+// Application Behavior
+// ----------------------------------------------------------------------
+
+	"enable_telemetry": false,
+
+    // Start in full screen mode if it was previously in full screen mode
+    "remember_full_screen": true,
+
+    // Diff tracked files against HEAD
+	"git_diff_target": "head",
+
+   	// Folders hidden from sidebar
+	"folder_exclude_patterns": [ 
+		".svn", 
+		".git", 
+		".*-cache", 
+		"__pycache__", 
+		"node_modules", 
+		".config" 
+	],
+
+	// Files hidden from sidebar
+	"file_exclude_patterns":[
+		"*.swp",
+		"*.tgz",
+		"*.tar.*",
+		"*.pyc", 
+		"*.pyo", 
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o", 
+		"*.a", 
+		"*.lib", 
+		"*.so", 
+		"*.dylib", 
+		"*.ncb", 
+		"*.sdf", 
+		"*.suo", 
+		"*.pdb", 
+		"*.idb", 
+		".DS_Store", 
+		"*.class",
+		"*.db",
+		"*.sublime-*",
+		"*-lock.json",
+		"shrinkwrap.yaml",
+		".glitch-assets"
+	],
+
+	// Disable the packages
+	"ignored_packages":
+	[
+		"Color Highlight",
+		"Markdown",
+		"Python",
+		"Vintage"
+	],
+}
