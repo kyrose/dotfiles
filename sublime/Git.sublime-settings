@@ -1,0 +1,8 @@
+{
+	"diff_panel": true,
+
+	// Subject line <= 50 chars; Body should wrap at 72 chars
+	"commit_rulers": [50, 72],
+
+	"gitignore_sync": true
+}
