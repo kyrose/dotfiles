@@ -1,0 +1,19 @@
+{
+	"ensure_newline_at_eof_on_save": true,
+	"extensions":
+	[
+		"py"
+	],
+	"rulers":
+	[
+		72,
+		79,
+		120
+	],
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+
+	// Enable Anaconda's linter!
+	"anaconda_linting": true
+}
