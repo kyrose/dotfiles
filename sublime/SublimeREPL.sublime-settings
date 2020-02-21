@@ -1,0 +1,16 @@
+{
+	"python_virtualenv_paths": [
+		"/home/kyrose/.local/share/anaconda3/envs",
+		"/home/kyrose/.conda/envs",
+		"/home/kyrose/.virtualenvs"
+	],
+
+	"repl_view_settings": {
+		"translate_tabs_to_spaces": true,
+		"auto_indent": true,
+		"smart_indent": true,
+		"indent_subsequent_lines": true,
+		"detect_indentation": true,
+		"auto_complete": true
+	}
+}
