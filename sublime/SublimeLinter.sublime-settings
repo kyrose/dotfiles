@@ -1,0 +1,43 @@
+// SublimeLinter Settings - User
+{
+    // Prints info to console
+    "debug": true,
+    "delay": 0.25,
+
+    "gutter_theme": "Default",
+
+    // Hides all errors while editing
+    "highlights.demote_while_editing": "all",
+
+    // Run asynchronously on every change
+    "lint_mode": "background",
+    "linters": {
+        "annotations": {
+            "warnings": [ 
+                "TODO", "TODOC", "EXPLAIN",
+                "NOTE", "IDEA", 
+                "SEE", "REF", "DEF",
+                "DONE"
+            ],
+            "errors": [ 
+                "FIXME", "BUG",
+                "NEEDSWORK", "INSPECT", "???", 
+                "HACK"
+            ],
+            "styles": [
+                { // Errors                
+                    "scope": "region.orangish markup.error.sublime_linter",
+                    "types": ["error"],
+                    "mark_style": "none",
+                    "icon": "pointer"
+                },
+                {   // Warnings             
+                    "scope": "region.pinkish markup.warning.sublime_linter",
+                    "types": ["warning"],
+                    "mark_style": "none",
+                    "icon": "star"
+                }
+            ]
+        }
+    }
+}
