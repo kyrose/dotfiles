@@ -1,0 +1,19 @@
+{
+	"node_path": "~/.nvm/versions/node/v12.16.0/bin/node",
+
+	"allow_inline_formatting": true,
+
+	"disable_prettier_cursor_offset": true,
+
+	"prettier_options": {
+
+		// Use single quotes
+		"singleQuote": true,
+
+		// Only format files with special comments (pragma) at the top of the file:
+			/**				//		/**
+			 * @prettier 	//    	 * @format
+			*/		 		//    	 */
+		"requirePragma": true
+	}
+}
