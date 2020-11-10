@@ -8,5 +8,6 @@ path=(
 	/sbin
 	~/.local/bin
 	~/bin
+    ~/.rvm/bin
 	$path
 )

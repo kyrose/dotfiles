@@ -10,7 +10,7 @@ alias ls='ls -C --color=auto --group-directories-first' # ls with colors; group 
 # Shortcuts to well-traffic directories
 alias dev='cd ~/dev/ && ls'
 alias auto='cd ~/dev/automate/ && ls'
-alias ky='cd ~/dev/personal/ && ls'	
+alias ky='cd ~/dev/personal/ && ls'
 alias docs='cd ~/docs/ && ls'
 alias tmp='cd ~/tmp/ && ls'
 alias shots='cd ~/tmp/screenshots/ && ls'
@@ -23,7 +23,7 @@ alias e='exit'
 
 # More ls shortcuts
 alias la='ls -A' # do not ignore hidden files and directories
-alias lf='ls -F' # visual classification: dir=`/`, link=`@`, executable=`*` 
+alias lf='ls -F' # visual classification: dir=`/`, link=`@`, executable=`*`
 alias laf='la -F'
 alias ll='lf -ao' # list all and print in long listing format (no group)
 alias lr='ls -R' # list subdirectories recursively
