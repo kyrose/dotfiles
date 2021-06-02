@@ -1,0 +1,9 @@
+function alias() {
+    if [[ $1 == "-t" ]]; then
+        alias $2='$3'
+        echo "alias $2='$3'"
+    else
+        echo "alias $1='$2'" >> $ZDOTDIR/config/aliases.zsh
+        echo "alias $1 added"
+    fi
+}
